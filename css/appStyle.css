@@ -1,0 +1,67 @@
+body{}
+.header{
+    text-align: center;
+    border:0px solid;
+    background: #eee;
+    padding: 20px 0 20px 0;
+}
+
+.content{
+    margin: 10px 0 0 0;
+    padding: 0 0 0 10px;
+    text-align: center;
+}
+.leftAlign{
+    text-align:left;
+}
+.darkbackground{
+    background-color:#eee;
+}
+.extra-padding10{
+    padding: 10px;
+}
+
+.border-text{
+    border:1px solid;
+}
+
+.width100{
+    width: 100%;
+}
+.marginTop10{
+    margin:10px 0 0 0;
+}
+.marginTop20{
+    margin:20px 0 0 0;
+}
+
+/*Animation Classes*/
+.animate-show {
+    -webkit-transition:all linear 0.5s;
+    transition:all linear 0.1s;
+    line-height:20px;
+    opacity:1;
+    padding:10px;
+}
+
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove {
+    display:block!important;
+}
+
+.animate-show.ng-hide {
+    line-height:0;
+    opacity:0;
+    padding:0 10px;
+}
+.errorMessage{
+    color:#ff0000;
+}
+
+.list-item-row{font-style: normal; font-weight: normal; padding-top: 29px; padding-left: 25px;}
+.list-item-row label{font-weight: normal;}
+
+.markCompleted{
+    text-decoration: line-through;
+    color: #00d000;
+}
